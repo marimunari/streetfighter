@@ -1,0 +1,97 @@
+.cta-2 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 78px;
+  background-color: #fff;
+}
+
+.cta-2 h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-style: italic;
+  padding-bottom: 48px;
+  text-align: center;
+}
+
+.cta-2 form .form-input {
+  width: 80%;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.cta-2 form .form-input::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: #8f9397;
+  opacity: 0.2;
+  border-radius: 5px;
+  position: relative;
+  left: 16px;
+  top: 20px;
+}
+
+.cta-2 form .form-input input,
+.cta-2 form .form-input textarea {
+  width: 80%;
+  border: none;
+  outline: 0;
+  background: transparent;
+  font-family: Barlow, sans-serif;
+  font-size: 1.5rem;
+  color: #8f9397;
+  padding: 16px;
+}
+
+.cta-2 form .form-input textarea {
+  resize: none;
+}
+
+.cta-2 form .send {
+  margin: 30px 70px;
+  padding: 15px 25px;
+  background-color: #f1a90d;
+}
+
+.cta-2 form .send:hover {
+  box-shadow: 0 0 1em #f5bc3d;
+}
+
+@media (min-width: 641px) {
+  .cta-2 h3 {
+    padding-bottom: 16px;
+  }
+
+  .cta-2 form .form-input::after {
+    left: 8px;
+  }
+
+  .cta-2 form .form-input input,
+  .cta-2 form .form-input textarea {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .cta-2 form .send {
+    margin: 15px 85px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cta-2 form .send {
+    margin: 15px 123px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .cta-2 form .send {
+    margin: 15px 154px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .cta-2 form .send {
+    margin: 15px 158px;
+  }
+}

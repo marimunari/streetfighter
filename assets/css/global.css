@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;0,600;1,900");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Barlow", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+label {
+  display: none;
+}
+
+button {
+  max-width: 200px;
+  font-family: Barlow, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.icon {
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.icon::after,
+.icon::before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  border-radius: 5px;
+  position: relative;
+}
+
+.icon::after {
+  left: 220px;
+  bottom: 11px;
+}
+
+.icon::before {
+  left: 130px;
+  top: 10px;
+}
+
+@media (min-width: 641px) {
+  .icon.one::after {
+    left: 250px;
+  }
+
+  .icon.one::before {
+    left: 150px;
+  }
+
+  .icon.two::after,
+  .icon.three::after,
+  .icon.four::after {
+    left: 340px;
+  }
+
+  .icon.two::before,
+  .icon.three::before,
+  .icon.four::before {
+    left: 240px;
+  }
+}
+
+@media (min-width: 992px) {
+  .icon.one::after {
+    left: 300px;
+  }
+
+  .icon.one::before {
+    left: 190px;
+  }
+
+  .icon.two::after,
+  .icon.three::after,
+  .icon.four::after {
+    left: 520px;
+  }
+
+  .icon.two::before,
+  .icon.three::before,
+  .icon.four::before {
+    left: 410px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .icon.two::after,
+  .icon.three::after,
+  .icon.four::after {
+    left: 530px;
+  }
+
+  .icon.two::before,
+  .icon.three::before,
+  .icon.four::before {
+    left: 430px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .icon.two::after,
+  .icon.three::after,
+  .icon.four::after {
+    left: 670px;
+  }
+
+  .icon.two::before,
+  .icon.three::before,
+  .icon.four::before {
+    left: 570px;
+  }
+}
+
+@media (min-width: 1360px) {
+  .icon.two::after,
+  .icon.three::after,
+  .icon.four::after {
+    left: 700px;
+  }
+
+  .icon.two::before,
+  .icon.three::before,
+  .icon.four::before {
+    left: 595px;
+  }
+}

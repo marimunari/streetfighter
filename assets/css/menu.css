@@ -1,0 +1,51 @@
+.menu {
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: #000;
+}
+
+.menu > .menu-logo {
+  width: 110px;
+}
+
+.menu > .menu-nav ul {
+  display: flex;
+}
+
+.menu > .menu-nav a {
+  display: block;
+  padding: 16px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.menu > .menu-nav a:hover {
+  color: #f1a90d;
+}
+
+@media (min-width: 641px) {
+  .menu {
+    height: 20vh;
+  }
+
+  .menu > .menu-logo {
+    width: 150px;
+    margin-right: 100px;
+  }
+
+  .menu > .menu-nav a {
+    padding: 13px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu {
+    padding: 30px 50px;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,65 @@
+.cta-1 {
+  width: 100%;
+  height: 100vh;
+  padding-top: 78px;
+  text-align: center;
+  background-color: #f1a90d;
+}
+
+.cta-1 h3 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  font-style: italic;
+  padding-bottom: 48px;
+  color: #212529;
+}
+
+.cta-1 > .cta-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+  font-size: 0.95rem;
+  line-height: 1.5rem;
+  color: #212529;
+}
+
+.cta-1 > .cta-infos > .cta-infos-item {
+  width: 70%;
+  padding-bottom: 32px;
+  text-align: justify;
+}
+
+.cta-1 > .fight {
+  padding: 20px 30px;
+  background-color: #000;
+}
+
+.cta-1 > .fight:hover {
+  box-shadow: 0 0 1em #212529;
+}
+
+@media (min-width: 641px) {
+  .cta-1 > .cta-infos > .cta-infos-item {
+    padding-bottom: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cta-1 > .cta-infos {
+    flex-direction: row;
+  }
+
+  .cta-1 > .cta-infos > .cta-infos-item {
+    width: 20%;
+    margin-right: 70px;
+    margin-bottom: 48px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cta-1 > .cta-infos > .cta-infos-item {
+    margin-right: 130px;
+  }
+}
