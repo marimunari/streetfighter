@@ -1,4 +1,3 @@
-# sf
 # Street Fighter Website :boxing_glove::heart:
 
 Projeto realizado para o desafio das aulas de HTML e CSS do Intensivo Frontend da <a href="https://heroway.com.br/treinamento/" target="_blank">Heroway</a>.
